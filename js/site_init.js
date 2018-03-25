@@ -20,8 +20,8 @@ SiteInit.prototype = {
         var _self = this;
         var _animationRate = 300;
         this.setObject(args);
-        this.imageWrapper();
-        this.imageFancybox();
+        // this.imageWrapper();
+        // this.imageFancybox();
         this.initSearchArea();
         this.clickSearchBtn(_self, _animationRate);
     },
